@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Deterministic>true</Deterministic>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" Version="11.8.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Healthcare.Engineering.Database\Healthcare.Engineering.Database.csproj" />
+      <ProjectReference Include="..\Healthcare.Engineering.DataObject\Healthcare.Engineering.DataObject.csproj" />
+    </ItemGroup>
+    
+</Project>
